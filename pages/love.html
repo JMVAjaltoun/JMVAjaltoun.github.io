@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="icon" href="../images/jmv_icon.png" type="image/x-icon">
+    <title>Love</title>
+    <style>
+        .floating.circle {
+            background-image: url("../images/love images/love_img_1.png");
+            width: 60px;
+            height: 60px;
+        }
+
+        .floating.square {
+            background-image: url("../images/love images/love_img_2.png");
+            width: 250px;
+            height: 160px;
+        }
+
+        .floating.triangle{
+            background-image: url("../images/love images/love_img_3.png");
+            width: 60px;
+            height: 60px;
+        }
+
+        .floating.cross {
+            background-image: url("../images/love images/love_img_4.png");
+            width: 60px;
+            height: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="bg_container"></div>
+    <div class="main_container">
+        
+        <div class="pain_de_vie">
+            <h1>Love</h1>
+            <p>"I have loved you with an everlasting love; I have drawn you with unfailing kindness." - Jeremiah 31:3</p>
+        </div>
+
+        <video id="myVideo" controls  height="300">
+            <source src="../images/jmv_video.mp4">
+            <p>video not supported</p>
+        </video>
+        
+        <img class="logo" src="../images/jmv_logo.png">
+    </div>
+    <div id="footer"></div>
+
+    <script src="../assets/script.js"></script>
+    <script>
+        loadComponent('../assets/bg.html', 'bg_container');
+        loadComponent('../assets/footer.html', 'footer');
+    </script>
+
+</body>
+</html>
